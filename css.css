@@ -1,0 +1,404 @@
+/* Language dropdown off */
+.dropdown{
+    display: none;
+}
+
+/* CONTAINER */
+
+body{
+    background-color: #C9DBE3;
+}
+
+#background{
+    border: 2px solid rgb(32, 32, 32);
+}
+
+.gameContainer{
+    margin: auto;
+    margin-top: 5%;
+    z-index: -1;
+}
+
+/* INSTRUCTIONS */
+
+#instructions{
+    background-color: #ffb35c;
+    color: black;
+    z-index: 50;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#instructions > h2{
+    font-family: 'Oswald', sans-serif;
+    color: #2e585a;
+    margin-bottom: 20px;
+}
+
+#instructionsInfo {
+    text-align: left;
+}
+
+#instructionsInfo img {
+    width: 55px;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+.special{
+    background-color: #2e585a;
+    border-radius: 10px;
+    color: white;
+    margin: 5px 5px;
+    padding: 5px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.special > div > p {
+    margin: 10px 0px;
+}
+
+.last-left h3{
+    font-weight: bolder;
+    color: #2e585a;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+}
+
+.last-right img{
+    width: 100px !important;
+}
+
+.last-right{
+    padding-left: 0px;
+}
+
+
+.play{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 0px;
+    height: 20px;
+}
+
+.play div{
+    display: flex;
+    align-items: center;
+}
+
+.play img{
+    padding-left: 3px;
+    height: 22px;
+}
+
+.play h4{
+    padding-right: 20px;
+}
+
+#interior{
+    display:none;
+  }
+
+
+#play {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#play{
+    transition: 0.3s;
+}
+
+#play:hover{
+    transform: scale(1.2);
+}
+
+
+/* GAME */
+
+#background{
+    height: 450px;
+    width: 895px;
+    margin: 20px auto;
+    position: relative;
+}
+
+#interior > p {
+    width: 15%;
+    top: 2px;
+}
+
+#gameBack{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#lady{
+    position: relative;
+    height: 260px;
+    width: 145px;
+    z-index: 2;
+}
+
+#basket{
+    position: absolute;
+    top: 375px;
+    left: 820px;
+    height: 65px;
+    background-color: rgb(233, 167, 92);
+    border: black 1px solid;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+#list{
+    position: absolute;
+    top: 35px;
+    left: 20px;
+    height: 30px;
+    background-color: rgb(233, 167, 92);
+    border: black 1px solid;
+    padding: 5px;
+    border-radius: 4px;
+
+}
+
+/* List */
+
+.divList{
+    background-image: url(img/notebook.png);
+    background-position: center;
+    background-size: cover;
+    height: 170px;
+    width: 200px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 30px;
+    left: 70px;
+    padding-top: 10px;
+    font-family: 'Caveat', cursive;
+    line-height: 1.2em;
+}
+
+#interior > p{
+padding-top: 5px;
+position: relative;
+padding-left: 10px;
+font-family: 'Montserrat', sans-serif;
+}
+
+.divList > ul{
+    list-style: none;
+}
+
+.noVisible{
+    display: none;
+}
+
+/* Talk with someone  */
+
+.speak{
+    position: absolute;
+    height: 40px;
+    background-color: rgb(233, 167, 92);
+    border: black 1px solid;
+    border-radius: 35px;
+    padding: 10px;
+    display: none;
+    z-index: 2;
+}
+
+.sp1{
+    top: 200px;
+    left: 675px;
+}
+
+.sp2{
+    top: 120px;
+    left: 300px;
+}
+
+.sp3{
+    top: 180px;
+    left: 630px;
+}
+
+#interior > p{
+    z-index: 2;
+    color: black;
+}
+
+
+.visible{
+    display: inline;
+}
+
+#text{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    font-size: large;
+    background-color: rgb(233, 167, 92);
+    display: none;
+    padding: 5px;
+    border: 1px solid black;
+    z-index: 50;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#text > div {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#text > img{
+    height: 15px;
+    margin-bottom: 2px;
+}
+
+/* Basket animations */
+
+.animationClassGreen{
+    animation: basketGreen 0.5s linear;
+}
+
+.animationClassRed{
+    animation: basketRed 0.5s linear;
+}
+
+@keyframes basketGreen{
+    0%{
+        background-color: rgb(233, 167, 92);
+    } 
+
+    50%{
+        background-color: rgb(60, 175, 60);
+    }
+
+    100%{
+        background-color: rgb(233, 167, 92);;
+    }
+}
+
+@keyframes basketRed{
+    0%{
+        background-color: rgb(233, 167, 92);
+    } 
+
+    50%{
+        background-color: rgb(245, 20, 20);
+    }
+
+    100%{
+        background-color: rgb(233, 167, 92);
+    }
+}
+
+/* MESSAGE AFTER GAME */
+
+#afterGame{
+    display: none;
+    background-color: #ffb35c;
+    color: #2e585a;
+    position: relative;
+    z-index: 20;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    /* height: 450px;
+    width: 895px; */
+    font-family: 'Montserrat', sans-serif;
+}
+
+#imageEnd{
+    position: absolute;
+    bottom: 0px;
+    height: 60%;
+    right: 40px;
+}
+
+#afterGame > h1{
+    font-family: 'Oswald', sans-serif;
+    color: #2e585a;
+    margin: 20px 0px;
+}
+
+#afterGame > h3{
+    padding-top: 20px;
+}
+
+.canjeo{
+    margin-top: 20px;
+    background-color: #2e585a;
+    color: white;
+}
+
+#replay{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#replay > img{
+    
+    padding-left: 3px;
+    height: 30px; 
+}
+
+#replay > h2 {
+    padding-left: 1em;
+}
+
+/* Clock */
+
+#time{
+    font-size: 30px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    padding: 10px;
+    z-index: 3;
+    background-color: #ffb35c;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+/* Change shop */
+
+#shop{
+    position: absolute;
+    top: 75px;
+    left: 20px;
+    height: 30px;
+    background-color: rgb(233, 167, 92);
+    border: black 1px solid;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+/* Music icons */
+
+#music{
+    height: 40px;
+    background-color: rgb(233, 167, 92);
+    border: black 1px solid;
+    padding: 5px;
+    border-radius: 4px;
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    z-index: 1;
+}

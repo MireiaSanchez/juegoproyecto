@@ -1,6 +1,6 @@
 let character = { x: 50, y: 140 };
 let productsGrocery = [{ name: "Harina", img: "img/Grocery/Harina.png", x: 395, y: 6 },
-{ name: "Masa pastel", img: "img/Grocery/masa pastel.png", x: 535, y: 7 }, { name: "Azúcar", img: "img/Grocery/Azúcar.png", x: 415, y: 76},
+{ name: "Masa pastel", img: "img/Grocery/Masa Pastel.png", x: 535, y: 7 }, { name: "Azúcar", img: "img/Grocery/Azúcar.png", x: 415, y: 76},
 { name: "Huevos", img: "img/Grocery/Huevos.png", x: 485, y: 113 }, { name: "Salsa de tomate", img: "img/Grocery/Salsa de tomate.png", x: 673, y: 41 },
 { name: "Galletas", img: "img/Grocery/Galletas.png", x: 763, y: 88 }, { name: "Polvorones", img: "img/Grocery/polvorones.png", x: 665, y: 82 },
 { name: "Láminas para canelones", img: "img/Grocery/Láminas para canelones.png", x: 720, y: 45 }, { name: "Galets", img: "img/Grocery/galets.png", x: 820, y: 29 },
@@ -8,10 +8,10 @@ let productsGrocery = [{ name: "Harina", img: "img/Grocery/Harina.png", x: 395, 
 { name: "Mermelada", img: "img/Grocery/mermelada.png", x: 835, y: 255}, { name: "Té", img: "img/Grocery/Té.png", x: 668, y: 163 },
 { name: "Café", img: "img/Grocery/Café.png", x: 822, y: 139 }, { name: "Vino Blanco", img: "img/Grocery/Vino Blanco.png", x: 440, y: 277 },
 { name: "Vino Tinto", img: "img/Grocery/Vino Tinto.png", x: 392, y: 272 }, { name: "Cava", img: "img/Grocery/Cava.png", x: 490, y: 278 },
-{ name: "Cola", img: "img/Grocery/Cola.png", x: 535, y: 282 }, { name: "Limonada", img: "img/Grocery/Limonada.png", x: 580, y: 284 },
+{ name: "Cola", img: "img/Grocery/cola.png", x: 535, y: 282 }, { name: "Limonada", img: "img/Grocery/Limonada.png", x: 580, y: 284 },
 { name: "Naranjada", img: "img/Grocery/Naranjada.png", x: 631, y: 285 }, { name: "Mayonesa", img: "img/Grocery/mayonesa.png", x: 412, y: 255 }, 
 {name: "Aceite", img: "img/Grocery/Aceite.png", x: 640, y: 200}, {name: "Cacao en polvo", img: "img/Grocery/Cacao en polvo.png", x: 715, y: 245},
-{name: "Olivas", img: "img/Grocery/Olivas.png", x: 567, y: 237}, {name: "Leche", img: "img/Grocery/leche.png", x: 470, y: 225},
+{name: "Olivas", img: "img/Grocery/Olivas.png", x: 567, y: 237}, {name: "Leche", img: "img/Grocery/Leche.png", x: 470, y: 225},
 {name: "Panettone", img: "img/Grocery/Panettone.png", x: 390, y: 128}];
 
 let productsFruit = [{ name: "Manzana", img: "img/Fruits/Manzana.png", x: 760, y: 325 }, { name: "Uva", img: "img/Fruits/Uva.png", x: 690, y: 260 },
